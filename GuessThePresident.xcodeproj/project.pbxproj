@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726E9EC92420842700109C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9EC82420842700109C3D /* AppDelegate.swift */; };
+		726E9ECB2420842700109C3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9ECA2420842700109C3D /* SceneDelegate.swift */; };
+		726E9ECE2420842700109C3D /* GuessThePresident.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 726E9ECC2420842700109C3D /* GuessThePresident.xcdatamodeld */; };
+		726E9ED02420842700109C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9ECF2420842700109C3D /* ContentView.swift */; };
+		726E9ED22420842C00109C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726E9ED12420842C00109C3D /* Assets.xcassets */; };
+		726E9ED52420842C00109C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726E9ED42420842C00109C3D /* Preview Assets.xcassets */; };
+		726E9ED82420842C00109C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E9ED62420842C00109C3D /* LaunchScreen.storyboard */; };
+		726E9EE32420842C00109C3D /* GuessThePresidentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9EE22420842C00109C3D /* GuessThePresidentTests.swift */; };
+		726E9EEE2420842C00109C3D /* GuessThePresidentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9EED2420842C00109C3D /* GuessThePresidentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		726E9EDF2420842C00109C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726E9EBD2420842700109C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726E9EC42420842700109C3D;
+			remoteInfo = GuessThePresident;
+		};
+		726E9EEA2420842C00109C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 726E9EBD2420842700109C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726E9EC42420842700109C3D;
+			remoteInfo = GuessThePresident;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		726E9EC52420842700109C3D /* GuessThePresident.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessThePresident.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726E9EC82420842700109C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		726E9ECA2420842700109C3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		726E9ECD2420842700109C3D /* GuessThePresident.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuessThePresident.xcdatamodel; sourceTree = "<group>"; };
+		726E9ECF2420842700109C3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		726E9ED12420842C00109C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		726E9ED42420842C00109C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		726E9ED72420842C00109C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		726E9ED92420842C00109C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726E9EDE2420842C00109C3D /* GuessThePresidentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessThePresidentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726E9EE22420842C00109C3D /* GuessThePresidentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessThePresidentTests.swift; sourceTree = "<group>"; };
+		726E9EE42420842C00109C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726E9EE92420842C00109C3D /* GuessThePresidentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessThePresidentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		726E9EED2420842C00109C3D /* GuessThePresidentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessThePresidentUITests.swift; sourceTree = "<group>"; };
+		726E9EEF2420842C00109C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726E9EC22420842700109C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E9EDB2420842C00109C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E9EE62420842C00109C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		726E9EBC2420842700109C3D = {
+			isa = PBXGroup;
+			children = (
+				726E9EC72420842700109C3D /* GuessThePresident */,
+				726E9EE12420842C00109C3D /* GuessThePresidentTests */,
+				726E9EEC2420842C00109C3D /* GuessThePresidentUITests */,
+				726E9EC62420842700109C3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		726E9EC62420842700109C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726E9EC52420842700109C3D /* GuessThePresident.app */,
+				726E9EDE2420842C00109C3D /* GuessThePresidentTests.xctest */,
+				726E9EE92420842C00109C3D /* GuessThePresidentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726E9EC72420842700109C3D /* GuessThePresident */ = {
+			isa = PBXGroup;
+			children = (
+				726E9EC82420842700109C3D /* AppDelegate.swift */,
+				726E9ECA2420842700109C3D /* SceneDelegate.swift */,
+				726E9ECF2420842700109C3D /* ContentView.swift */,
+				726E9ED12420842C00109C3D /* Assets.xcassets */,
+				726E9ED62420842C00109C3D /* LaunchScreen.storyboard */,
+				726E9ED92420842C00109C3D /* Info.plist */,
+				726E9ECC2420842700109C3D /* GuessThePresident.xcdatamodeld */,
+				726E9ED32420842C00109C3D /* Preview Content */,
+			);
+			path = GuessThePresident;
+			sourceTree = "<group>";
+		};
+		726E9ED32420842C00109C3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				726E9ED42420842C00109C3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		726E9EE12420842C00109C3D /* GuessThePresidentTests */ = {
+			isa = PBXGroup;
+			children = (
+				726E9EE22420842C00109C3D /* GuessThePresidentTests.swift */,
+				726E9EE42420842C00109C3D /* Info.plist */,
+			);
+			path = GuessThePresidentTests;
+			sourceTree = "<group>";
+		};
+		726E9EEC2420842C00109C3D /* GuessThePresidentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				726E9EED2420842C00109C3D /* GuessThePresidentUITests.swift */,
+				726E9EEF2420842C00109C3D /* Info.plist */,
+			);
+			path = GuessThePresidentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726E9EC42420842700109C3D /* GuessThePresident */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726E9EF22420842C00109C3D /* Build configuration list for PBXNativeTarget "GuessThePresident" */;
+			buildPhases = (
+				726E9EC12420842700109C3D /* Sources */,
+				726E9EC22420842700109C3D /* Frameworks */,
+				726E9EC32420842700109C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessThePresident;
+			productName = GuessThePresident;
+			productReference = 726E9EC52420842700109C3D /* GuessThePresident.app */;
+			productType = "com.apple.product-type.application";
+		};
+		726E9EDD2420842C00109C3D /* GuessThePresidentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726E9EF52420842C00109C3D /* Build configuration list for PBXNativeTarget "GuessThePresidentTests" */;
+			buildPhases = (
+				726E9EDA2420842C00109C3D /* Sources */,
+				726E9EDB2420842C00109C3D /* Frameworks */,
+				726E9EDC2420842C00109C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726E9EE02420842C00109C3D /* PBXTargetDependency */,
+			);
+			name = GuessThePresidentTests;
+			productName = GuessThePresidentTests;
+			productReference = 726E9EDE2420842C00109C3D /* GuessThePresidentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		726E9EE82420842C00109C3D /* GuessThePresidentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726E9EF82420842C00109C3D /* Build configuration list for PBXNativeTarget "GuessThePresidentUITests" */;
+			buildPhases = (
+				726E9EE52420842C00109C3D /* Sources */,
+				726E9EE62420842C00109C3D /* Frameworks */,
+				726E9EE72420842C00109C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726E9EEB2420842C00109C3D /* PBXTargetDependency */,
+			);
+			name = GuessThePresidentUITests;
+			productName = GuessThePresidentUITests;
+			productReference = 726E9EE92420842C00109C3D /* GuessThePresidentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726E9EBD2420842700109C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = nicholasgrant;
+				TargetAttributes = {
+					726E9EC42420842700109C3D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					726E9EDD2420842C00109C3D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 726E9EC42420842700109C3D;
+					};
+					726E9EE82420842C00109C3D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 726E9EC42420842700109C3D;
+					};
+				};
+			};
+			buildConfigurationList = 726E9EC02420842700109C3D /* Build configuration list for PBXProject "GuessThePresident" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 726E9EBC2420842700109C3D;
+			productRefGroup = 726E9EC62420842700109C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726E9EC42420842700109C3D /* GuessThePresident */,
+				726E9EDD2420842C00109C3D /* GuessThePresidentTests */,
+				726E9EE82420842C00109C3D /* GuessThePresidentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726E9EC32420842700109C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726E9ED82420842C00109C3D /* LaunchScreen.storyboard in Resources */,
+				726E9ED52420842C00109C3D /* Preview Assets.xcassets in Resources */,
+				726E9ED22420842C00109C3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E9EDC2420842C00109C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E9EE72420842C00109C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726E9EC12420842700109C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726E9EC92420842700109C3D /* AppDelegate.swift in Sources */,
+				726E9ECB2420842700109C3D /* SceneDelegate.swift in Sources */,
+				726E9ED02420842700109C3D /* ContentView.swift in Sources */,
+				726E9ECE2420842700109C3D /* GuessThePresident.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E9EDA2420842C00109C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726E9EE32420842C00109C3D /* GuessThePresidentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E9EE52420842C00109C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726E9EEE2420842C00109C3D /* GuessThePresidentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		726E9EE02420842C00109C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726E9EC42420842700109C3D /* GuessThePresident */;
+			targetProxy = 726E9EDF2420842C00109C3D /* PBXContainerItemProxy */;
+		};
+		726E9EEB2420842C00109C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 726E9EC42420842700109C3D /* GuessThePresident */;
+			targetProxy = 726E9EEA2420842C00109C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		726E9ED62420842C00109C3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726E9ED72420842C00109C3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726E9EF02420842C00109C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		726E9EF12420842C00109C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		726E9EF32420842C00109C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessThePresident/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuessThePresident/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.GuessThePresident;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		726E9EF42420842C00109C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessThePresident/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuessThePresident/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.GuessThePresident;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		726E9EF62420842C00109C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessThePresidentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.GuessThePresidentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessThePresident.app/GuessThePresident";
+			};
+			name = Debug;
+		};
+		726E9EF72420842C00109C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessThePresidentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.GuessThePresidentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessThePresident.app/GuessThePresident";
+			};
+			name = Release;
+		};
+		726E9EF92420842C00109C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessThePresidentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.GuessThePresidentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessThePresident;
+			};
+			name = Debug;
+		};
+		726E9EFA2420842C00109C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessThePresidentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.GuessThePresidentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessThePresident;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726E9EC02420842700109C3D /* Build configuration list for PBXProject "GuessThePresident" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726E9EF02420842C00109C3D /* Debug */,
+				726E9EF12420842C00109C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726E9EF22420842C00109C3D /* Build configuration list for PBXNativeTarget "GuessThePresident" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726E9EF32420842C00109C3D /* Debug */,
+				726E9EF42420842C00109C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726E9EF52420842C00109C3D /* Build configuration list for PBXNativeTarget "GuessThePresidentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726E9EF62420842C00109C3D /* Debug */,
+				726E9EF72420842C00109C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726E9EF82420842C00109C3D /* Build configuration list for PBXNativeTarget "GuessThePresidentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726E9EF92420842C00109C3D /* Debug */,
+				726E9EFA2420842C00109C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		726E9ECC2420842700109C3D /* GuessThePresident.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				726E9ECD2420842700109C3D /* GuessThePresident.xcdatamodel */,
+			);
+			currentVersion = 726E9ECD2420842700109C3D /* GuessThePresident.xcdatamodel */;
+			path = GuessThePresident.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 726E9EBD2420842700109C3D /* Project object */;
+}
