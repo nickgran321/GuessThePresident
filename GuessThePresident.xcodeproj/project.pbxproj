@@ -16,6 +16,7 @@
 		726E9ED82420842C00109C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E9ED62420842C00109C3D /* LaunchScreen.storyboard */; };
 		726E9EE32420842C00109C3D /* GuessThePresidentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9EE22420842C00109C3D /* GuessThePresidentTests.swift */; };
 		726E9EEE2420842C00109C3D /* GuessThePresidentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9EED2420842C00109C3D /* GuessThePresidentUITests.swift */; };
+		726E9EFC2420845600109C3D /* End.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726E9EFB2420845600109C3D /* End.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		726E9EE92420842C00109C3D /* GuessThePresidentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessThePresidentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		726E9EED2420842C00109C3D /* GuessThePresidentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessThePresidentUITests.swift; sourceTree = "<group>"; };
 		726E9EEF2420842C00109C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726E9EFB2420845600109C3D /* End.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = End.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				726E9EC82420842700109C3D /* AppDelegate.swift */,
 				726E9ECA2420842700109C3D /* SceneDelegate.swift */,
 				726E9ECF2420842700109C3D /* ContentView.swift */,
+				726E9EFB2420845600109C3D /* End.swift */,
 				726E9ED12420842C00109C3D /* Assets.xcassets */,
 				726E9ED62420842C00109C3D /* LaunchScreen.storyboard */,
 				726E9ED92420842C00109C3D /* Info.plist */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726E9EFC2420845600109C3D /* End.swift in Sources */,
 				726E9EC92420842700109C3D /* AppDelegate.swift in Sources */,
 				726E9ECB2420842700109C3D /* SceneDelegate.swift in Sources */,
 				726E9ED02420842700109C3D /* ContentView.swift in Sources */,
